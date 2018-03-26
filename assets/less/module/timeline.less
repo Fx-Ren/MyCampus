@@ -1,0 +1,83 @@
+/*------------------------------------*\
+    #Timeline
+\*------------------------------------*/
+
+.timeline {
+	position: realtive;
+}
+
+.timeline:before {
+	position: absolute;
+	content: "";
+	background-color: #cecece;
+	width: 2px;
+	height: 100%;
+	top: -20px;
+	left: 97px;
+}
+
+.timeline:after {
+	position: absolute;
+	content: "";
+	background-color: #cecece;
+	width: 2px;
+	height: 20px;
+	bottom: 0;
+	left: 97px;
+}
+
+.timeline--item {
+	position: relative;
+	margin-bottom: 65px;
+}
+
+.timeline--item:last-child {
+	margin-bottom: 0;
+}
+
+.timeline--item .timeline--item-date {
+	color: @color-theme;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.timeline--item .timeline--item-content {
+	padding-left: 118px;
+}
+
+.timeline--item .timeline--item-content h3 {
+	color: @color-dark2;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.timeline--item .timeline--item-content h3:before {
+	position: absolute;
+	width: 30px;
+	height: 25px;
+	line-height: 25px;
+	top: 0;
+	left: -42px;
+	color: @color-dark2;
+	font-size: 16px;
+	font-weight: 400;
+	background: @color-white;
+	content: "\f017";
+	font-family: @awesome
+}
+
+.timeline--item .timeline--item-content p {
+	color: @color-body;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	margin-bottom: 0;
+}

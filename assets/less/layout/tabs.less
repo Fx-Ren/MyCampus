@@ -1,0 +1,143 @@
+/*------------------------------------*\
+    #Tabs
+\*------------------------------------*/
+.tabs .nav-tabs {
+  border-bottom-color: #ededed;
+  text-align: center;
+}
+
+.tabs .nav-tabs > li {
+  float: none;
+  display: inline-block;
+}
+
+.tabs .nav-tabs > li > a {
+  color: @color-dark2;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.tabs .nav-tabs > li > a:focus,
+.tabs .nav-tabs > li > a:hover,
+.tabs .nav-tabs > li.active > a,
+.tabs .nav-tabs > li.active > a:focus,
+.tabs .nav-tabs > li.active > a:hover {
+  color: @color-theme;
+  background-color: @color-white;
+  border: none;
+  border-bottom: 2px solid @color-theme;
+}
+
+.tabs .tab-content > .tab-pane {
+  padding-top: 30px;
+}
+
+.tabs .tab-content > .tab-pane p {
+  color: #a5a5a5;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+}
+/* Tabs #2*/
+.tabs-2.tabs .nav-tabs {
+  border-bottom: none;
+}
+
+.tabs-2.tabs .nav-tabs > li > a {
+  pading-top: 0;
+  padding-bottom: 0;
+}
+
+.tabs-2.tabs .nav-tabs > li > a i {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: @color-dark2;
+  display: block;
+  color: @color-white;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.tabs-2.tabs .nav-tabs > li > a:focus,
+.tabs-2.tabs .nav-tabs > li > a:hover,
+.tabs-2.tabs .nav-tabs > li.active > a,
+.tabs-2.tabs .nav-tabs > li.active > a:focus,
+.tabs-2.tabs .nav-tabs > li.active > a:hover {
+  color: @color-theme;
+  background-color: @color-white;
+  border: none;
+}
+
+.tabs-2.tabs .nav-tabs > li > a:focus i,
+.tabs-2.tabs .nav-tabs > li > a:hover i,
+.tabs-2.tabs .nav-tabs > li.active > a i,
+.tabs-2.tabs .nav-tabs > li.active > a:focus i,
+.tabs-2.tabs .nav-tabs > li.active > a:hover i {
+  background-color: @color-theme;
+}
+/* Tab Vertical */
+.tabs-vertical.tabs .nav-tabs {
+  border-bottom: none;
+  border-right: 1px solid #ededed;
+  width: 15%;
+  float: left;
+}
+
+.tabs-vertical.tabs .nav-tabs > li {
+  float: none;
+  display: block;
+}
+
+.tabs-vertical.tabs .nav-tabs > li > a {
+  border-radius: 0;
+  border: none;
+  padding-right: 20px;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+.tabs-vertical.tabs .nav-tabs > li > a:focus,
+.tabs-vertical.tabs .nav-tabs > li > a:hover,
+.tabs-vertical.tabs .nav-tabs > li.active > a,
+.tabs-vertical.tabs .nav-tabs > li.active > a:focus,
+.tabs-vertical.tabs .nav-tabs > li.active > a:hover {
+  color: @color-theme;
+  background-color: @color-white;
+  border: none;
+  border-right: 2px solid @color-theme;
+  padding-left: 11px;
+}
+
+.tabs-vertical.tabs .tab-content {
+  padding-left: 15%;
+  text-align: left;
+}
+
+.tabs-vertical.tabs .tab-content > .tab-pane {
+  padding-left: 60px;
+  padding-top: 0;
+}
+
+.tabs-vertical.tabs .tab-content > .tab-pane p {
+  color: #a5a5a5;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+}
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+.tabs .nav-tabs > li > a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+	
+}

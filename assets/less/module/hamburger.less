@@ -1,0 +1,140 @@
+/*------------------------------------*\
+    #Hamburger
+\*------------------------------------*/
+/* Hamburger Panel */
+
+.hamburger-panel {
+	position: fixed;
+	height: 100%;
+	height: 100%;
+	width: 0;
+	/* 0 width - change this with JavaScript */
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #272930;
+	overflow-x: hidden;
+	webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.hamburger-panel-close i:before {
+	content: "\f00d";
+	color: #f3695f;
+}
+
+.hamburger-panel .list-links {
+	margin-bottom: 0;
+	padding: 45px 30px;
+}
+
+.hamburger-panel .list-links a {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 44px;
+	text-transform: uppercase;
+	color: @color-gray;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	position: relative;
+	display: block;
+}
+
+.hamburger-panel .list-links a:after {
+	opacity: 0;
+	content: "";
+	height: 2px;
+	width: 20px;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	display: inline-block;
+	background-color: @color-theme;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-transform: translateX(-10px);
+	-moz-transform: translateX(-10px);
+	-o-transform: translateX(-10px);
+	-ms-transform: translateX(-10px);
+	transform: translateX(-10px);
+}
+
+.hamburger-panel .list-links a.active:after {
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-o-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+}
+
+.hamburger-panel .list-links a:hover {
+	color: @color-theme
+}
+
+.hamburger-panel .list-links a:hover::after {
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-o-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+}
+
+.hamburger-panel .social-share {
+	padding: 0 30px;
+}
+
+.hamburger-panel .social-share a {
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 1px;
+	font-size: 15px;
+	font-weight: 400;
+	color: @color-gray;
+	text-align: center;
+	display: inline-block;
+	background-color: #32333a;
+	margin-right: 5px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.hamburger-panel .social-share a:hover {
+	color: @color-white !important
+}
+
+.hamburger-panel .social-share a.share-facebook:hover {
+	background-color: #3B5998;
+}
+
+.hamburger-panel .social-share a.share-twitter:hover {
+	background-color: #00ACEE;
+}
+
+.hamburger-panel .social-share a.share-pinterest:hover {
+	background-color: #C8232C;
+}
+
+.hamburger-panel .social-share a.share-google-plus:hover {
+	background-color: #DD4B39;
+}
+
+.hamburger-panel .social-share a.share-dribbble:hover {
+	background-color: #EA4C89;
+}
+
+.hamburger-panel .copywright {
+	text-align: center;
+	padding: 60px 30px 0;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #818181;
+}

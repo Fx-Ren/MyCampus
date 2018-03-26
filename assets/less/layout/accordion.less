@@ -1,0 +1,96 @@
+/*------------------------------------*\
+    #Accordion
+\*------------------------------------*/
+/* Accordion Base */
+.accordion .panel {
+	border-color: rgba(49, 49, 49, 0.1);
+	padding: 28px 28px 0;
+	margin-bottom: 20px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.accordion .panel .panel--heading {
+	padding: 0 0 28px;
+}
+
+.accordion .panel .panel--heading a {
+	font-size: 16px;
+	color: @color-theme;
+	font-weight: 600;
+	line-height: 20px;
+	position: relative;
+	padding-left: 40px;
+	display: block;
+}
+
+.accordion .panel .panel--heading a.collapsed {
+	color:  @color-heading;
+}
+
+.accordion .panel .panel--body {
+	padding: 0 0 28px;
+	color: @color-body;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+/* Accordion Status */
+
+.accordion .panel--heading .accordion-toggle:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "\f068";
+	/* symbol for "opening" panels */
+	font-family: @awesome;
+	font-size: 11px;
+	color: @color-white;
+	background-color: @color-theme;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	line-height: 21px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.accordion .panel--heading .accordion-toggle.collapsed:after {
+	content: "\f067"; /* symbol for "collapsed" panels */
+	color: @color-white;
+	background-color:  @color-heading;
+}
+/* Accordion Style #1 */
+
+.accordion.accordion-1 .panel {
+	border-color: transparent;
+	background-color: #f4f4f4;
+}
+/* Accordion Style #2 */
+
+.accordion.accordion-2 .panel {
+	border-color: @color-gray2;
+	background-color: transparent;
+}
+/* Accordion Style #3 */
+
+.accordion.accordion-3 .panel {
+	border-color: @color-gray2;
+	background-color: transparent;
+}
+
+.accordion.accordion-3 .panel--heading a {
+	padding-left: 0;
+}
+
+.accordion.accordion-3 .panel--heading .accordion-toggle:after {
+	right: 0;
+	left: auto;
+}

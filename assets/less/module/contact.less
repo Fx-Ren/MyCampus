@@ -1,0 +1,65 @@
+/*------------------------------------*\
+    #CONTACT-PAGE
+\*------------------------------------*/
+
+.contact-form .notes {
+  color: #a5a5a5;
+  font-family: @font-secondary;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.contact--info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.contact--info p {
+  color: @color-body;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.contact--info p:last-of-type {
+  margin-bottom: 16px;
+}
+
+a.link--styled {
+  color: @color-theme;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 4px;
+}
+
+a.link--styled:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 22px;
+  height: 2px;
+  content: "";
+  background-color: @color-theme;
+}
+
+a.link--styled:hover {
+  color: @color-heading
+}
+
+a.link--styled:hover::after {
+  background-color: @color-heading
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+  .contact--info {
+    margin-bottom: 30px;
+  }
+}

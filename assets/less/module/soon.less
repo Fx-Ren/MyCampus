@@ -1,0 +1,74 @@
+/*------------------------------------*\
+    #SOON
+\*------------------------------------*/
+
+.soon {
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+
+.count-down {
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+/* jQuery Countdown styles 2.0.0. */
+
+.is-countdown {}
+
+.countdown-rtl {
+	direction: rtl;
+}
+
+.countdown-section {
+	display: block;
+	float: left;
+	text-align: center;
+	position: relative;
+	height: auto;
+	padding-top: 0;
+	margin-left: 0;
+	width: 20%;
+}
+
+.countdown-section:last-of-type {
+	margin-left: 0;
+}
+
+.countdown-amount {
+	color: @color-heading;
+	font-size: 80px;
+	font-weight: 600;
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+.countdown-period {
+	display: block;
+	color: @color-body;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1;
+	text-transform: uppercase;
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 320px)and (max-width : 467px ) {
+	.countdown-section {
+		margin-left: 0;
+		margin-bottom: 30px;
+		width: 50%;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 468px) and (max-width : 991px) {
+	.countdown-section {
+		margin-left: 10px;
+		width: 18%;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+	.countdown-section {
+		margin-left: 10px;
+		width: 23%;
+	}
+}

@@ -1,0 +1,36 @@
+/*------------------------------------*\
+    #Layout Split
+\*------------------------------------*/
+.testimonial-split .testimonial-1 .testimonial-panel .testimonial--body{padding:0}
+.testimonial-split .owl-theme .owl-controls {display:none}
+.nav-split {position:fixed; top:50%; right:30px; z-index: 9999; margin-bottom:0; list-style: none;}
+.nav-split li a {
+	width: 9px;
+height: 9px;
+background-color: @color-dark3;
+	border:2px solid transparent;
+	font-size: 0;
+	border-radius: 50%;
+	display: block;
+	margin-bottom: 13px;
+}
+.nav-split li a:hover,
+.nav-split li.active a {
+	-moz-box-shadow: 0 0 0 2px @color-dark3;
+	-webkit-box-shadow: 0 0 0 2px @color-dark3;
+	    box-shadow: 0 0 0 2px @color-dark3;
+	border-color:@color-white;
+}
+
+
+.nav-split li.split-even a {
+
+background-color: @color-white;
+}
+.nav-split li.split-even a:hover,
+.nav-split li.split-even.active a {
+	-moz-box-shadow: 0 0 0 2px @color-white;
+	-webkit-box-shadow: 0 0 0 2px @color-white;
+	    box-shadow: 0 0 0 2px @color-white;
+	border-color:@color-dark3;
+}

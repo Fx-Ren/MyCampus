@@ -1,0 +1,285 @@
+
+/*------------------------------------*\
+    #DARK LAYOUT
+\*------------------------------------*/
+
+.wrapper,
+body {
+	background-color: #222222;
+	color: #9b9b9b;
+}
+
+.bg-white {
+	background-color: #1d1d1d !important;
+	color: #9b9b9b;
+}
+
+.accordion .panel .panel--heading a.collapsed,
+.blog-entry .entry--more a:hover,
+.blog-entry .entry--title h4 a,
+.entry--share .share--title,
+.entry--share a,
+.entry-prev-next a,
+.entry-related .entry--title a,
+.entry-widget .entry-widget-title h4,
+.feature-panel .feature--content h3,
+.heading .heading--subtitle,
+.member .member-info h5,
+.number-panel .number--content h3,
+.skills .progress-title .title,
+.testimonial-panel .testimonial--meta h4,
+.widget .widget--title h5,
+.widget-categories ul li a,
+.widget-recent-posts .entry .entry-title a,
+.widget-tags a,
+ul.comments-list .comment-body .comment h6,
+.quote-author,
+.countdown-amount,
+.count-box .counting,
+.cta-3 h3,
+.banner-panel h3,
+ul.icon-list li i,
+.pricing-panel .pricing--heading p,
+.pie-chart .skill-name h6,
+.tabs .nav-tabs > li > a,
+.widget-recent-products .product .product-title a,
+.portfolio-filter li a,
+.portfolio-item .portfolio--title h4 a,
+.portfolio-item .portfolio--cat a,
+.portfolio-single .portfolio--title h3,
+.portfolio-single .portfolio--list ul li span,
+.portfolio-single .portfolio--share span,
+.portfolio--prev-next .portfolio--bio a,
+.portfolio--prev-next .portfolio--icon a,
+.portfolio-single .portfolio--prev-next:after,
+.cart-product-name h6,
+.cart-table thead tr th,
+.cart-shiping h6,
+.cart-total-amount h6,
+.product--content .product--title a,
+.product--content .product--cat a,
+.shop-product .product-title h3,
+.shop-product .product-details h5,
+.shop-product .product-quantity .qua,
+.shop-product .product-share h5,
+.shop-product .product-related-title h5,
+.landing-demos .portfolio-title h4 {
+	color: #f9f9f9;
+}
+
+.blog-entry .entry--more a:hover:after {
+	background-color: #f9f9f9;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.heading .heading--title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #ffffff;
+}
+
+.blog-entry,
+.entry-prev-next,
+.entry-widget,
+.sidebar,
+.pricing-panel,
+.testimonial-2 .testimonial-panel {
+	-moz-box-shadow: 0 2px 3px rgba(40, 40, 40, 0.1);
+	-webkit-box-shadow: 0 2px 3px rgba(40, 40, 40, 0.1);
+	box-shadow: 0 2px 3px rgba(40, 40, 40, 0.1);
+	background-color: #1d1d1d;
+}
+
+.accordion .panel--heading .accordion-toggle.collapsed:after,
+.accordion.accordion-1 .panel,
+.entry-prev-next:after,
+.form-control,
+.widget-search .form-search,
+.blockquote-3,
+.pricing-panel .pricing--heading,
+.tabs .nav-tabs > li > a:focus,
+.tabs .nav-tabs > li > a:hover,
+.tabs .nav-tabs > li.active > a,
+.tabs .nav-tabs > li.active > a:focus,
+.tabs .nav-tabs > li.active > a:hover,
+.tabs-2.tabs .nav-tabs > li > a:focus,
+.tabs-2.tabs .nav-tabs > li > a:hover,
+.tabs-2.tabs .nav-tabs > li.active > a,
+.tabs-2.tabs .nav-tabs > li.active > a:focus,
+.tabs-2.tabs .nav-tabs > li.active > a:hover,
+.tabs-vertical.tabs .nav-tabs > li > a:focus,
+.tabs-vertical.tabs .nav-tabs > li > a:hover,
+.tabs-vertical.tabs .nav-tabs > li.active > a,
+.tabs-vertical.tabs .nav-tabs > li.active > a:focus,
+.tabs-vertical.tabs .nav-tabs > li.active > a:hover,
+.timeline:before,
+.portfolio-single .portfolio--list,
+.portfolio-single .portfolio--share,
+.cart-table .table,
+.cart-table thead,
+.cart-shiping,
+.cart-total-amount,
+.product-tabs .nav-tabs,
+.product-tabs {
+	background-color: #222222;
+}
+
+.clients-2 .row-clients .client:before {
+	background-color: #f9f9f9;
+}
+
+.widget-tags a {
+	border-color: #f9f9f9;
+}
+
+.cart-table .table,
+.cart-table thead tr th,
+.cart-table tbody tr td {
+	border-color: #f9f9f9;
+}
+
+.entry--share,
+ul.comments-list ul.comment-children,
+.portfolio-single hr.divider {
+	border-top-color: #222222;
+}
+
+ul.comments-list li,
+.tabs .nav-tabs {
+	border-bottom-color: #222222;
+}
+
+.blockquote-1 {
+	border-left-color: #f9f9f9;
+}
+
+.tabs-vertical.tabs .nav-tabs {
+	border-right-color: #2222;
+}
+
+.btn--secondary {
+	background-color: #f9f9f9;
+	border-color: #f9f9f9;
+	color: #222222;
+}
+
+.btn--bordered.btn--secondary {
+	color: #f9f9f9;
+	border-color: #f9f9f9;
+	background-color: transparent;
+}
+
+.btn--bordered.btn--secondary:active,
+.btn--bordered.btn--secondary:focus,
+.btn--bordered.btn--secondary:hover {
+	color: #222222;
+	background-color: #f9f9f9;
+	border-color: #f9f9f9;
+}
+
+.btn--link.btn--secondary {
+	color: #f9f9f9;
+	background-color: transparent;
+	border-color: transparent
+}
+
+.banner-panel.bg-section h3 {
+	color: #222;
+}
+
+.number-panel .num {
+	color: rgba(255,255,255,.3)
+}
+
+.bg-white .timeline--item .timeline--item-content h3:before {
+	background-color: #1d1d1d
+}
+
+.timeline--item .timeline--item-content h3:before {
+	background-color: #222
+}
+
+.btn--primary:active,
+.btn--primary:focus,
+.btn--primary:hover {
+	background-color: #f9f9f9;
+	border-color: #f9f9f9;
+	color: #dd543d;
+}
+
+.product-tabs .nav-tabs > li > a {
+	color: #f9f9f9 !important
+}
+
+.skills .progress {
+	background-color: #363636
+}
+
+.module-side-nav .widget-categories ul li a,
+.module-side-nav .widget .widget--title h5,
+.module-side-nav .widget-recent-posts .entry .entry-title a,
+.module-side-nav .widget-tags a {
+	color: #333333;
+}
+
+.module-side-nav .widget-tags a {
+	border-color: #333333;
+}
+
+.module-side-nav .widget-categories ul li a:hover,
+.module-side-nav .widget-recent-posts .entry .entry-title a:hover,
+.module-side-nav .widget-tags a:hover {
+	color: #dd543d;
+}
+
+.module-side-nav .widget-tags a:hover {
+	border-color: #dd543d;
+	color: #ffffff
+}
+
+.carousel-dots .owl-controls .owl-dots .owl-dot span {
+	background-color: #ffffff;
+	border-color: #333333;
+	opacity: .3;
+}
+
+.carousel-dots .owl-controls .owl-dots .owl-dot.active span {
+	-moz-box-shadow: 0 0 0 2px #ffff;
+	-webkit-box-shadow: 0 0 0 2px #fff;
+	box-shadow: 0 0 0 2px #fff;
+}
+
+.portfolio-item .portfolio--hover .portfolio--action {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.page-dark .header-fixed .affix {
+	background-color: #222;
+}
+
+.page-dark .header-fixed .navbar.affix .logo-light {
+	display: inline-block;
+}
+
+.page-dark .header-fixed .navbar.affix .logo-dark {
+	display: none;
+}
+
+.page-dark .header-fixed .navbar.affix .module .module-icon i,
+.page-dark .header-fixed .navbar.affix .navbar-nav > li > a {
+	color: #fff;
+}
+
+.page-dark .header-fixed .navbar.affix .navbar-nav > li > .menu-item:hover::before,
+.page-dark .header-fixed .navbar.affix .navbar-nav > li.active > .menu-item:before {
+	background-color: #fff;
+}
